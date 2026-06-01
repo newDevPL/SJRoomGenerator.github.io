@@ -9,7 +9,7 @@ This repository hosts the public user documentation for the SJ Procedural Room U
 
 ## Support
 
-- Community support: [Discord](https://discord.gg/h8XMBXUD)
+- Community support: [Discord](https://discord.gg/Qsp339GFj9)
 - Bug reports: [GitHub Issues](https://github.com/newDevPL/SJRoomGenerator.github.io/issues)
 
 Last verified: 2026-06-01.
