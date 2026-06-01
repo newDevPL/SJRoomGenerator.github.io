@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SJ Procedural Room Documentation</title>
+  <meta name="description" content="User documentation for the SJ Procedural Room Unreal Engine plugin.">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1c2430;
+      --muted: #5d6674;
+      --line: #d8dee8;
+      --panel: #f5f7fa;
+      --accent: #2767a7;
+      --accent-dark: #1f4f80;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: #ffffff;
+      line-height: 1.55;
+    }
+
+    main {
+      width: min(920px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 56px 0 64px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 28px;
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 40px;
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 34px 0 12px;
+      font-size: 22px;
+      color: var(--accent-dark);
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .downloads {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+      margin: 24px 0 6px;
+    }
+
+    .download {
+      display: block;
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .download strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--accent);
+      font-size: 18px;
+    }
+
+    .download span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>SJ Procedural Room Documentation</h1>
+      <p class="subtitle">User-facing documentation for the SJ Procedural Room Unreal Engine 5.7 plugin.</p>
+    </header>
+
+    <section aria-labelledby="downloads">
+      <h2 id="downloads">Downloads</h2>
+      <div class="downloads">
+        <a class="download" href="docs/SJProceduralRoom_UserGuide.pdf">
+          <strong>User Guide PDF</strong>
+          <span>Recommended format for reading and sharing.</span>
+        </a>
+        <a class="download" href="docs/SJProceduralRoom_UserGuide.docx">
+          <strong>User Guide DOCX</strong>
+          <span>Editable Word document version.</span>
+        </a>
+      </div>
+    </section>
+
+    <section aria-labelledby="about">
+      <h2 id="about">About The Plugin</h2>
+      <p>SJ Procedural Room creates editable room shells from a closed spline. It generates walls, wall finish surfaces, floors, ceilings, roof variants, door and window openings, and editor baked StaticMesh output.</p>
+      <ul>
+        <li>Included sample map: <code>/SJProceduralRoom/DemoLevel</code>.</li>
+        <li>Primary actor: <code>ASJProceduralRoomActor</code>.</li>
+        <li>Default bake output path: <code>/Game/SJProceduralRoom/BakedRooms</code>.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="contents">
+      <h2 id="contents">What The Guide Covers</h2>
+      <ul>
+        <li>Opening the included demo level and reviewing sample room layouts.</li>
+        <li>Editing room outlines, per-wall settings, materials, roofs, doors, and windows.</li>
+        <li>Understanding opening validation warnings and generated mesh lighting behavior.</li>
+        <li>Baking live generated geometry into StaticMesh assets.</li>
+        <li>Current limitations and validation performed for this documentation release.</li>
+      </ul>
+    </section>
+
+    <footer>
+      Last verified: 2026-06-01. Documentation copyright Tomasz Kumorek.
+    </footer>
+  </main>
+</body>
+</html>
