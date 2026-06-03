@@ -2,6 +2,10 @@
 
 This repository hosts the public user documentation for the SJ Procedural Room Unreal Engine plugin.
 
+## Demo Video
+
+- [SJ Procedural Room overview video](https://youtu.be/dXDiUJGoh5E)
+
 ## Public Downloads
 
 - [User Guide PDF](docs/SJProceduralRoom_UserGuide.pdf)
@@ -12,4 +16,4 @@ This repository hosts the public user documentation for the SJ Procedural Room U
 - Community support: [Discord](https://discord.gg/Qsp339GFj9)
 - Bug reports: [GitHub Issues](https://github.com/newDevPL/SJRoomGenerator.github.io/issues)
 
-Last verified: 2026-06-01.
+Last verified: 2026-06-03.
